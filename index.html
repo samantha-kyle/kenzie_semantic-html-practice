@@ -53,53 +53,40 @@
         </header>
 
         <article class="row">
-            <section class="soup">
-                <figure class="image">
-                    <img src="images/soup-card.jpg" alt="tomato-soup">
-                </figure>
-                <section class="content">
-                    <h4>The divy mater</h4>
-                    <p>This soup is a hot mess of divs sure to frustrate any developer.</p>
+                <section class="soup">
+                    <figure class="image">
+                        <img src="images/soup-card.jpg" alt="tomato-soup">
+                    </figure>
+                    <section class="content">
+                        <h4>The divy mater</h4>
+                        <p>This soup is a hot mess of divs sure to frustrate any developer.</p>
+                    </section>
                 </section>
-            </section>
 
-            <section class="soup">
-                <figure class="image-wrapper">
-                    <img src="images/soup-card.jpg" alt="tomato-soup">
-                </figure>
-                <section class="content">
-                    <h4>The divy mater</h4>
-                    <p>This soup is a hot mess of divs sure to frustrate any developer.</p>
+                <section class="soup">
+                    <figure class="image-wrapper">
+                        <img src="images/soup-card.jpg" alt="tomato-soup">
+                    </figure>
+                    <section class="content">
+                        <h4>The divy mater</h4>
+                        <p>This soup is a hot mess of divs sure to frustrate any developer.</p>
+                    </section>
                 </section>
-            </section>
 
-            <section class="soup">
-                <figure class="image">
-                    <img src="images/soup-card.jpg" alt="tomato-soup">
-                </figure>
-                <section class="content">
-                    <h4>The divy mater</h4>
-                    <p>This soup is a hot mess of divs sure to frustrate any developer.</p>
+                <section class="soup">
+                    <figure class="image">
+                        <img src="images/soup-card.jpg" alt="tomato-soup">
+                    </figure>
+                    <section class="content">
+                        <h4>The divy mater</h4>
+                        <p>This soup is a hot mess of divs sure to frustrate any developer.</p>
+                    </section>
                 </section>
-            </section>
         </article>
-        <article class="row">
-            <form class="form" id="fs-frm" name="praise-form" accept-charset="utf-8" action="https://formspree.io/samanthakyle@gmail.com" method="post">
-                <fieldset class="forminput" id="fs-frm-inputs">
-                  <label class="formlabel" for="full-name">Full Name</label>
-                  <input class="input" type="text" name="name" id="full-name" placeholder="First and Last" required="">
-                  <label class="formlabel" for="email-address">Email Address</label>
-                  <input class="input" type="email" name="_replyto" id="email-address" placeholder="soup@soup.soup" required="">
-                  <label class="formlabel" for="praise">Praise</label>
-                  <textarea class="input" rows="6" name="praise" id="praise" placeholder="Let me know how good the soup was!" required=""></textarea>
-                  <input type="hidden" name="_subject" id="email-subject" value="Praise the Soup!">
-                </fieldset>
-                <input class="submitbutton" type="submit" value="File Praise">
-              </form>
-        </article>
+
     </article>
-
-
+    
+    
     <footer class="footer container">
         <section class="row">
             <nav class="footer-links">
@@ -108,17 +95,31 @@
                 <a href="#">External Resources</a>
                 <a href="#">Policies</a>
             </nav>
-
-
+            
+            
             <address class="address">
                 <p>Supilinn</p>
                 <p>51007 Tartu</p>
                 <p>Estonia</p>
             </address>
-
+            
             <div class="map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16729.873195620403!2d26.6909825496327!3d58.38945180574219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eb36fa7e2e7b23%3A0xf0fdc061d6defba0!2sSupilinn%2C+51007+Tartu%2C+Estonia!5e0!3m2!1sen!2sus!4v1544559661945" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
+
+            <form class="form" id="fs-frm" name="praise-form" accept-charset="utf-8" action="https://formspree.io/samanthakyle@gmail.com" method="post">
+                <fieldset class="forminput" id="fs-frm-inputs">
+                    <label id="name" for="full-name">Full Name</label>
+                        <input class="input" type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                    <label id="email" for="email-address">Email Address</label>
+                        <input class="input" type="email" name="_replyto" id="email-address" placeholder="soup@soup.soup" required="">
+                    <label id="message" for="praise">Praise</label>
+                        <textarea class="input" rows="6" name="praise" id="praise" placeholder="Let me know how good the soup was!" required=""></textarea>
+                    <input type="hidden" name="_subject" id="email-subject" value="Praise the Soup!">
+                </fieldset>
+                <input class="submitbutton" type="submit" value="Praise the Soup!">
+            </form>
+
         </section>
     </footer>
 </body>
